@@ -5,28 +5,29 @@ A dynamic image classification application supporting CNN, ResNet-50, and Effici
 ✅ Supports CNN (64x64), ResNet-50 & EfficientNet-B2 (224x224) dynamically. ✅ Flexible UI for model training and prediction—no hardcoded dependencies. ✅ Efficient preprocessing pipeline with automated resizing & normalization. ✅ Modular codebase for easy customization and expansion.
 
 *🛠 Installation*
-1️⃣ Clone the Repository
+Clone the Repository
 ```bash
 git clone https://github.com/YourUsername/PhotoClassifierApp.git
 cd PhotoClassifierApp
+```
 
-2️⃣ Install Dependencies
+*Install Dependencies*
 ```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run the Application
+*Run the Application*
 For Training Models
 ```bash
 python app.py
+```
 
+*For Images Training (Training)*
 *Select CNN, ResNet-50, or EfficientNet-B2 in the UI.
 *Choose the training dataset folder.
 *Start training and monitor progress.
 
-For Image Classification (Prediction)
-```bash
-python predict.py
-
+*For Image Classification (Prediction)*
 *Select the trained model file.
 *Choose an image folder for classification.
 *Save classified images to the output folder.
