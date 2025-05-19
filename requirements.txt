@@ -1,0 +1,7 @@
+torch==2.1.0                   # PyTorch for model training & inference
+torchvision==0.16.0            # Image processing & pretrained models
+numpy==1.24.0                  # Numerical operations & tensor manipulation
+Pillow==10.0.0                 # Image handling (JPG, PNG)
+matplotlib==3.8.0              # Visualization (optional for debugging)
+tqdm==4.66.0                   # Progress bar in training
+tkinter                        # UI framework for model selection
