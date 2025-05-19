@@ -33,17 +33,9 @@ python app.py
 *Save classified images to the output folder.
 
 *📜 Folder Structure*
-PhotoClassifierApp/
-│── src/
-│   ├── ui/                  # User interface components
-│   ├── models/              # Model implementations (CNN, ResNet-50, EfficientNet-B2)
-│   ├── utils/               # Helper functions
-│── data/                    # Training datasets
-│── saved_models/            # Trained model storage
-│── app.py                   # Main application entry
-│── predict.py               # Image classification entry
-│── requirements.txt         # Dependencies list
-│── README.md                # Documentation
+
+![image](https://github.com/user-attachments/assets/631ceb93-1d94-4154-8a49-4db7584fe125)
+
 
 *🧩 How It Works*
 ✔ Model Selection in UI → Supports CNN (lightweight), ResNet-50 (feature-rich), and EfficientNet-B2 (balanced) ✔ Dynamic Resizing → 64x64 for CNN, 224x224 for deeper architectures ✔ Training Pipeline → Fine-tuning models with preprocessing, normalization, and batch optimization ✔ Prediction Workflow → Classifies images and organizes them into folders based on trained labels
